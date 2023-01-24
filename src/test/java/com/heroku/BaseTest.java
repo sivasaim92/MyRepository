@@ -27,7 +27,7 @@ public class BaseTest {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://the-internet.herokuapp.com/");
+        driver.get("http://localhost:7080/");
     }
     @BeforeSuite
     public void setUpBrowser() throws MalformedURLException {
