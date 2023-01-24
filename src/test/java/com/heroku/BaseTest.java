@@ -95,13 +95,13 @@ public class BaseTest {
         } else if (System.getProperty("setUp").equalsIgnoreCase("localhost")) {
             if (System.getProperty("browser").equalsIgnoreCase("firefox")) {
                 driver = new FirefoxDriver();
-                driver.get("https://the-internet.herokuapp.com/");
+                driver.get("http://localhost:7080/");
             } else if (System.getProperty("browser").equalsIgnoreCase("chrome")) {
                 driver = new ChromeDriver();
-                driver.get("https://the-internet.herokuapp.com/");
+                driver.get("http://localhost:7080/");
             } else if (System.getProperty("browser").equalsIgnoreCase("edge")) {
                 driver = new EdgeDriver();
-                driver.get("https://the-internet.herokuapp.com/");
+                driver.get("http://localhost:7080/");
             }
         }
     }
