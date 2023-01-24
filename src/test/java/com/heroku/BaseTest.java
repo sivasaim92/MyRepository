@@ -23,12 +23,12 @@ public class BaseTest {
 
     protected static WebDriver driver;
     protected URL url;
-    public void beforeSuite() {
-        WebDriverManager.firefoxdriver().setup();
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("http://localhost:7080/");
-    }
+//    public void beforeSuite() {
+//        WebDriverManager.firefoxdriver().setup();
+//        driver = new FirefoxDriver();
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//        driver.get("http://localhost:7080/");
+//    }
     @BeforeSuite
     public void setUpBrowser() throws MalformedURLException {
 
