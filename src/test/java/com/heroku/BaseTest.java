@@ -32,7 +32,7 @@ public class BaseTest {
     @BeforeSuite
     public void setUpBrowser() throws MalformedURLException {
 
-        if (System.getProperty("setUp").equalsIgnoreCase("cloud") || System.getProperty("setUp").equalsIgnoreCase("localhost")) {
+        if (System.getProperty("setUp").equalsIgnoreCase("cloud")) {
             ChromeOptions chromeOptions = new ChromeOptions();
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             SafariOptions safariOptions = new SafariOptions();
