@@ -15,7 +15,7 @@ public class LandingPageTest extends BaseTest {
     }
     @Test
     public void landingPageLoadTest() throws MalformedURLException {
-        setUpBrowser();
+        //setUpBrowser();
         WebElement pageHeaderElm = driver.findElement(By.cssSelector("#content > h2"));
         Assert.assertEquals(pageHeaderElm.getText(), "Available Examples");
     }

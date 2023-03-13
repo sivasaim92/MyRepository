@@ -9,6 +9,12 @@
             <class name="com.heroku.DynamicallyLoadElementTest" />
             <class name="com.heroku.FloatingMenuTest" />
             <class name="com.heroku.BasicAuthPageTest" />
+            <class name="com.heroku.HoversPageTest" />
+            <class name="com.heroku.ContextMenuPageTest" />
+            <class name="com.heroku.JavaScriptAlertPageTest" />
+            <class name="com.heroku.LoginPageTest" />
+            <class name="com.heroku.MultipleWindowPageTest" />
+            <class name="com.heroku.FileUploadTest" />
         </classes>
     </test>
 </suite>

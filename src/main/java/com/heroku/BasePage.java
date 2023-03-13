@@ -13,5 +13,7 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
-
+    public void pause() throws InterruptedException {
+        Thread.sleep(7000);
+    }
 }

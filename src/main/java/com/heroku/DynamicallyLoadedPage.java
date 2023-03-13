@@ -33,7 +33,6 @@ public class DynamicallyLoadedPage extends BasePage {
         startButtonToRenderElement.click();
         return elementRenderedToElement.getText().equals("Hello World!");
     }
-
     public boolean findHiddenElementInPage () {
         dynamicLoadingElement.click();
         hiddenElementExampleInPage.click();

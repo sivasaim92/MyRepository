@@ -23,7 +23,7 @@ public class DynamicallyLoadElementTest extends BaseTest {
     }
     @Test
     public void renderElementToWebPageTest() throws MalformedURLException {
-        setUpBrowser();
+       // setUpBrowser();
         driver.get("https://the-internet.herokuapp.com/");
         DynamicallyLoadedPage dynamicallyLoadedPage = PageFactory.initElements(driver, DynamicallyLoadedPage.class);
         Assert.assertTrue(dynamicallyLoadedPage.renderElementToWebPage());
@@ -31,7 +31,7 @@ public class DynamicallyLoadElementTest extends BaseTest {
 
     @Test
     public void hiddenElementInWebPageTest() throws MalformedURLException {
-        setUpBrowser();
+        //setUpBrowser();
         driver.get("https://the-internet.herokuapp.com/");
         DynamicallyLoadedPage dynamicallyLoadedPage = PageFactory.initElements(driver, DynamicallyLoadedPage.class);
         Assert.assertTrue(dynamicallyLoadedPage.findHiddenElementInPage());

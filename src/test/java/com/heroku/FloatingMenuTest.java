@@ -10,7 +10,7 @@ public class FloatingMenuTest extends BaseTest {
 
     @Test
     protected void floatingMenuTest () throws MalformedURLException {
-        setUpBrowser();
+        //setUpBrowser();
         driver.get("https://the-internet.herokuapp.com/");
         driver.findElement(By.cssSelector("#content > ul > li:nth-child(19) > a")).click();
         FloatingMenuPage floatingMenuPage = PageFactory.initElements(driver, FloatingMenuPage.class);

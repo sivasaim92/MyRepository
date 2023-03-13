@@ -1,0 +1,1 @@
+{"uuid":"38e58b1c-7c2b-4a0c-93d6-413c32382424","name":"DDMAssessmentTest","children":["11d572a2-71a3-4391-9654-a9f63d4e9199"],"befores":[{"name":"landingPage","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1678462252797,"stop":1678462253004}],"afters":[],"start":1678462252786,"stop":1678462262027}

@@ -15,21 +15,21 @@ public class JavaScriptAlertsTest extends BaseTest {
     }
     @Test (priority = 2)
     public void acceptJsAlertTest () throws MalformedURLException {
-        setUpBrowser();
+       // setUpBrowser();
         JavaScriptAlerts javaScriptAlerts = PageFactory.initElements(driver, JavaScriptAlerts.class);
         javaScriptAlerts.acceptJsAlert();
         Assert.assertEquals(javaScriptAlerts.getResultText(), "You successfully clicked an alert");
     }
     @Test (priority = 3)
     public void cancelJsConfirmTest () throws MalformedURLException {
-        setUpBrowser();
+        //setUpBrowser();
         JavaScriptAlerts javaScriptAlerts = PageFactory.initElements(driver, JavaScriptAlerts.class);
         javaScriptAlerts.cancelJsConfirm();
         Assert.assertEquals(javaScriptAlerts.getResultText(), "You clicked: Cancel");
     }
     @Test (priority = 4)
     public void enterTextJsPromptTest () throws InterruptedException, MalformedURLException {
-        setUpBrowser();
+        //setUpBrowser();
         JavaScriptAlerts javaScriptAlerts = PageFactory.initElements(driver, JavaScriptAlerts.class);
         javaScriptAlerts.enterTextInJsPrompt();
         Assert.assertEquals(javaScriptAlerts.getResultText(), "You entered: Hello JS");
